@@ -50,6 +50,11 @@ hash = "81ab12ddbd603d88eb7b5c3b8e257d551b3612bcffe82a21439f8fe8a887fbd7"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "716d930feff599bf9ce732e05979fbae8025dc8a3c13ccf4f1cb207a70883bc6"
+metafile = true
+
+[[files]]
 file = "mods/applied-experienced.pw.toml"
 hash = "a161fa5e6c9cc7720ace2b98ef866062109a79b306f63a89d989e533a48ccebb"
 metafile = true
@@ -162,6 +167,11 @@ metafile = true
 [[files]]
 file = "mods/chipped.pw.toml"
 hash = "24c6c3fe917ffbcef04e788dec3e003d0ed03433bc00f9cf4f23fe9b85636aa7"
+metafile = true
+
+[[files]]
+file = "mods/chunky.pw.toml"
+hash = "1d5cc2b6dcfd1fc3adba4566b1c29b57ff1175316678c1f22e63cbc3e28a5ba0"
 metafile = true
 
 [[files]]
@@ -390,6 +400,11 @@ hash = "28c29922378fa19f4edf1d16fffb48287a87be159a3378647073bbdebd2a2196"
 metafile = true
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+hash = "ee19fd713240c0fa9cf648e367db3e0d3e320a6ef334c12f660aaef89b7d20f3"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "9aab64fbec4cc794817026caf84e7d0dff14ba3892da94aa0e00d23c84560499"
 metafile = true
@@ -475,6 +490,11 @@ hash = "8a5e76693f22343bb2306011ad8018337971256a6f3b25cb03680b1d7d7470c1"
 metafile = true
 
 [[files]]
+file = "mods/kiss-a-friend.pw.toml"
+hash = "d7196c0e9564fa5a68e4814bb87a580e8f3c68b47dc1b3ec07efa0b5adb2b460"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "712a69b3569a8055979de6eea262068535fe182dffb3833e53e5833e9cbf9766"
 metafile = true
@@ -492,6 +512,11 @@ metafile = true
 [[files]]
 file = "mods/l_enders-cataclysm.pw.toml"
 hash = "1adf24c4207f2e7c99be3b5d4aaef206fbc3725441c14e1f7ea77d2648fc10ee"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "b85d562b35f68cdbb0f79bbdebc11cb938002c727d9f982ed5743c8488c74ac7"
 metafile = true
 
 [[files]]
@@ -641,7 +666,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "b586f666162c916d768532cbb98f390aa66f4998ca9ab0999bc4a9b7de5bb83f"
+hash = "5a59ebe515dbf2b637ac23bedeb33e545675668a0a454c5d6edd4d207a458844"
 metafile = true
 
 [[files]]
@@ -867,4 +892,9 @@ metafile = true
 [[files]]
 file = "mods/zfastnoise.pw.toml"
 hash = "b24c213b8727e80ca559670e97971c735c4dc4be1d1a4bd637c41450e7654c1e"
+metafile = true
+
+[[files]]
+file = "mods/zoomify.pw.toml"
+hash = "99df75455df674b3c0bbf6edc294ffa93668f288b7e538f6f879cb90dfb3b0e0"
 metafile = true

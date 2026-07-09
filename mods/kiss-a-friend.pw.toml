@@ -1,0 +1,21 @@
+filename = 'kiss-a-friend-1.0.0+1.21.jar'
+name = 'Kiss a Friend!'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0+1.21'
+
+[download]
+hash = 'ef1a2042b87c98b5c5c0fb0f6aef6e4c7a46d8dbd104d33fc8eacf1dfc1f9342dd6f34cd74513207ffd390404165d0ebc2d64274d30afde544f34217858422f9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/VUQV5zGn/versions/xDfUep3x/kiss-a-friend-1.0.0%2B1.21.jar'
+
+[update.modrinth]
+mod-id = 'VUQV5zGn'
+version = 'xDfUep3x'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
