@@ -630,6 +630,11 @@ hash = "2ccda92b6f9f4dae045fe05e57d3a1a4965b81e983006f17d75e83b464c240c9"
 metafile = true
 
 [[files]]
+file = "mods/player-animation-library.pw.toml"
+hash = "252547b364471df931005a57234082388e74eed949387ef39d17ce5fc56e190d"
+metafile = true
+
+[[files]]
 file = "mods/polymorph.pw.toml"
 hash = "152769b5dfbb92a836634e315898b23b6a555c60b6f05ddf38c00085f2b784f6"
 metafile = true
