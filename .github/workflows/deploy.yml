@@ -1,0 +1,87 @@
+name: Deploy Pack
+
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      # Checkout
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Install Go
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      # Install Packwiz
+      - name: Install Packwiz
+        run: |
+          go install github.com/packwiz/packwiz@latest
+          echo "$(go env GOPATH)/bin" >> $GITHUB_PATH
+
+      # Refresh Packwiz
+      - name: Refresh Packwiz
+        run: |
+          packwiz refresh
+
+      # Setup Pages
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Upload Pages Artifact
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      # Deploy Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Export Modrinth Pack
+        run: |
+          # Compiles into a Modrinth-compatible .mrpack
+          packwiz modrinth export -o modrinth-pack.mrpack
+
+      # Upload Modrinth Artifact
+      - name: Upload Modrinth Pack
+        uses: actions/upload-artifact@v7
+        with:
+          name: Modrinth Launcher (non auto updating)
+          path: modrinth-pack.mrpack
+          archive: false
+
+      # Zip pack for Prism
+      - name: Zip Folder
+        run: |
+          zip -r prism-pack.zip prism
+
+      # Upload PrismLauncher Artifact
+      - name: Upload PrismLauncher Pack
+        uses: actions/upload-artifact@v7
+        with:
+          name: Prism Launcher
+          path: prism-pack.zip
+          archive: false
