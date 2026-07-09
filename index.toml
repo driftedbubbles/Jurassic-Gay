@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "LICENSE"
+hash = "436a6d536138f203ac333858cff92a568be62797752b3adb94bcaa0f6ffe7ef6"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "e23f5fdde0fc396372e1697fa5d4b384ccb223026a50b8d5e379a38b288deb2a"
 metafile = true
@@ -413,11 +417,6 @@ metafile = true
 [[files]]
 file = "mods/jakes-build-tools.pw.toml"
 hash = "3165dc4ae8367f087c4140074995bbc60f65e856fc01d305d2a543fb140e1efd"
-metafile = true
-
-[[files]]
-file = "mods/jei.pw.toml"
-hash = "7a1cf860c2761f6ae16333f869c75bb2af1d079c61b7f94e6af3265886f4dec0"
 metafile = true
 
 [[files]]
