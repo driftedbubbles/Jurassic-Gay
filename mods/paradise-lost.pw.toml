@@ -1,0 +1,13 @@
+name = "Paradise Lost"
+filename = "paradise-lost-2.4.5-beta+1.21.1-SINYTRA.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IKpsG0nF/versions/NhxMSSQW/paradise-lost-2.4.5-beta%2B1.21.1-SINYTRA.jar"
+hash-format = "sha512"
+hash = "a80f188d0db5376527b2da098f354d9b75d0a9f7cba9605e5617724ead1319d421bc4a77d1b92f540af9cbbab132154fd35c5efaaf34e9a62f64b9d1d9676f3f"
+
+[update]
+[update.modrinth]
+mod-id = "IKpsG0nF"
+version = "NhxMSSQW"
