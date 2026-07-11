@@ -5,6 +5,10 @@ file = "LICENSE"
 hash = "436a6d536138f203ac333858cff92a568be62797752b3adb94bcaa0f6ffe7ef6"
 
 [[files]]
+file = "config/create_cyber_goggles.toml"
+hash = "4ecd2dcfdd150a3be48ab27e145ae8ccf817317c6580c7f014985367ff315129"
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "e23f5fdde0fc396372e1697fa5d4b384ccb223026a50b8d5e379a38b288deb2a"
 metafile = true
@@ -141,7 +145,7 @@ metafile = true
 
 [[files]]
 file = "mods/baguettelib.pw.toml"
-hash = "762fcd212e5049e6e8dcece301c4f33a17d3fc9b00744301c52c4695d7015523"
+hash = "cc360d86f76e729d3ebb7384cfbc933d8ffba694ba91360edeb846d61d14e561"
 metafile = true
 
 [[files]]
@@ -231,7 +235,7 @@ metafile = true
 
 [[files]]
 file = "mods/corpse-x-curios-api-compat.pw.toml"
-hash = "2f6a345c8124dd87b60c8ebbbaa35d9efa27c2d1947357b3247ab98fae9db210"
+hash = "0f24d3112418b31cf86b84d0ded37decc9dbd50cc229cec632547458c01ffdca"
 metafile = true
 
 [[files]]
